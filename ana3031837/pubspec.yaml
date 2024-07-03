@@ -1,0 +1,33 @@
+name: ana3031837
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  fonts:
+    - family: KodeMono
+      fonts:
+      - asset: assets/fonts/KodeMono-Regular.ttf
+      - asset: assets/fonts/KodeMono-Bold.ttf
+      - asset: assets/fonts/KodeMono-Medium.ttf
+      - asset: assets/fonts/KodeMono-SemiBold.ttf
+        weight: 700
+  assets: 
+    - assets/images/image.jpg
+  uses-material-design: true
